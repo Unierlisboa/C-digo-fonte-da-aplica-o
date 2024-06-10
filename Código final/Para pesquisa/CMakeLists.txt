@@ -1,0 +1,17 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "include/fw/fw.c"
+        "include/gpio/gpio.c" 
+        "include/spi/spi.c"
+        "include/timer/timer.c"
+        "include/dw1000/dw1000.c",
+    INCLUDE_DIRS 
+        "."
+        "./include/fw"
+        "./include/gpio" 
+        "./include/spi"
+        "./include/sw"
+        "./include/timer"
+        "./include/dw1000"
+)
